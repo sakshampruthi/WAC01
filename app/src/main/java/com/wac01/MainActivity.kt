@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         intentActivity = Intent(this,MainActivity2::class.java)
         clickButton.setOnClickListener {
             textView.text = "Activity 1 TEXT CHANGES"
+            //cooment
         }
     }
 }
